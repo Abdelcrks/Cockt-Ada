@@ -50,7 +50,6 @@ if (ageAlreadyChecked) {
   ageInterface();
 }
 
-// Soumission formulaire recherche
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -85,14 +84,14 @@ const loadCocktailFetch = async (value) => {
 
     if (!data.drinks) {value
       cocktailContainer.innerHTML = `<p class=errorIngredient> Please try another ingredient or cocktail name 🍋🍸</p>`;
-      cocktailContainer.style.display = "block" // pour forcer la recharge 
+      cocktailContainer.style.display = "block" 
 
       return;
     }
 
     cocktailContainer.innerHTML = "";
     htmlAppend(data);
-    cocktailContainer.style.display = "block" // pour forcer la recharge 
+    cocktailContainer.style.display = "block" 
   } catch (error) {
     console.log("error reaching cocktails API", error);
   }
@@ -143,7 +142,7 @@ const getCocktailImageSrc = async (value) => {
     const data = await response.json();
     return data.photos[0].src.large;
   } catch (error) {
-    console.log("error reaching image API:", error);
+    console.log("error image API:", error);
   }
 };
 
@@ -156,3 +155,5 @@ toggle.addEventListener("click", () => {
 });
 
 menuHamburger(choices);
+
+

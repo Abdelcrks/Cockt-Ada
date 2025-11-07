@@ -1,27 +1,42 @@
-22/07
-- Test et validation des APIs
-- Définition du MVP et conception maquette 
-- Mobbing et test affichage dynamique des APIs
+# 🍸 Cockt’Ada — Cocktail Finder & Age Verification (Projet Ada Tech School)
 
-23/07
-- fonction loadPage rendue fonctionnelle : affichage liste d'ingrédients, noms et instructions issus du 1er API
-- fonction getImageSource rendu fonctionnelle : récupération de la source des images issues du 2e API
-- intégration getImageSource dans la fonction loadPage et intégration dans le DOM
+Application web permettant de rechercher des cocktails selon un ingrédient ou un nom,  
+en combinant **deux APIs externes** et un système de **vérification d’âge obligatoire**  
+(accès réservé aux majeurs).
 
-24/07
-- bouton menu hamburger rendu fonctionnel 
-- validation des éléments design : logo, police, emplacement de la fiche des cocktails, nom du site
-- séparation de la fonction affichage du fetch 
-- switch de page Homepage et fichecocktail 
+Ce projet a été développé à **3 personnes** (travail d’équipe, Git, répartition des tâches).
 
-25/07
-- finalisation mise en page du landing page
-- mise en page de la page des cocktails
+---
 
-28/07
-- page about version beta : fonctionnel 
-- page Menu Frida version beta : fonctionnel 
-- page vérification d'âge version beta : fonctionnel 
+## 🚀 Fonctionnalités
 
+✨ Recherche d’un cocktail ou d’un ingrédient  
+✨ Affichage dynamique des résultats (nom, image, ingrédients, recette)  
+✨ Intégration de **2 APIs externes** :
+| API | Rôle |
+|------|------|
+| **TheCocktailDB** | Récupération des cocktails, ingrédients, recettes |
+| **Pexels API** | Recherche automatique des images correspondantes |
 
+✨ Vérification **d’âge obligatoire** avant d’accéder au site (stockée en `localStorage`)  
+✨ Menu hamburger responsive  
+✨ Design moderne (cards, layout, responsive)  
+✨ DOM dynamique (création des éléments via JavaScript)
+
+---
+
+## 🧠 Stack Technique
+
+| Technologie | Utilisation |
+|-------------|-------------|
+| **HTML5** | Structure de l’application |
+| **CSS3 (responsive + grid/flex)** | Design, layout, menu hamburger |
+| **JavaScript (ES6)** | Logique + API fetch + rendu DOM |
+| **APIs (REST)** | CocktailDB + Pexels |
+
+---
+
+## 📸 Aperçu du projet
+
+*(Ajoutez une capture d’écran ici si possible)*
 

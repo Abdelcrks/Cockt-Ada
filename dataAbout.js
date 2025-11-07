@@ -1,6 +1,10 @@
 export const about = {
-    team : "Cockt'Ada is a celebration—shaken and stirred! We craft bold, colorful, and original cocktails inspired by women who shake up the world. Each recipe is a tribute, each sip an invitation to taste flavors that are inclusive, meaningful, and full of character. Here's to cocktails with a cause!",
-    abdel : "brings bold ideas and smooth design—shaping every pixel with purpose and style.",
-    iris : "turns lines of code into liquid magic—hes the tech wizard behind the bar.",
-    xinzhu :"mixes storytelling and strategy like a pro—shes the creative spark of the crew.",
-};
+    team: "Cockt'Ada is more than cocktails — it's code, creativity and bold energy. We mix design, storytelling, and real development skills to craft digital cocktails with personality. Every recipe highlights diversity, inclusivity, and the art of blending unique talents.",
+    
+    abdel: "leads the development with precision and vision — from API integration (CocktailDB + Pexels), to dynamic rendering and UX logic. He shapes the technical backbone of Cockt'Ada and turns ideas into a smooth, working experience.",
+    
+    iris: "turns user flows and mockups into sleek layouts — transforming concepts into an elegant interface, ensuring everything feels intuitive and visually fresh.",
+    
+    xinzhu: "crafts the storytelling and creative direction — giving personality to each cocktail and shaping the identity of Cockt'Ada with words and concepts that spark emotion.",
+  };
+  
