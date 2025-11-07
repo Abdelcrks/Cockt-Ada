@@ -36,7 +36,6 @@ Ce projet a été développé à **3 personnes** (travail d’équipe, Git, rép
 
 ---
 
-## 📸 Aperçu du projet
 
-*(Ajoutez une capture d’écran ici si possible)*
+
 
