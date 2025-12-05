@@ -73,7 +73,7 @@ const ageInterface = () => {
         }
 
         resetBirthInputs();
-
+        
         if (dd === today.getDate() && mm - 1 === today.getMonth()) {
             alert("🥳 HAPPY BIRTHDAY TO YOU ✨🎉 ");
         }
